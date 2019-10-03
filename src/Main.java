@@ -14,17 +14,17 @@ public class Main {
         //Question 3
         boolean a = true;
         boolean b = false;
-        System.out.println((a || b) && ((a == b) || a));
+        System.out.println((a == b) || (a == a) && (b == b) || a);
 
         //Question 4
         a = false;
         b = false;
-        x = 5;
-        y = 10;
-        System.out.println((a == b) && (x * 4) == (y % 6) * 5);
+        x = 300;
+        y = 460;
+        System.out.println((b == b) && ((x / 30) * 2) == (((y * 2) / (247 + 213)) * 10));
 
         //Question 5
-        System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9,2)) <= 9 && (-4 <= 4)));
+        System.out.println(Math.sqrt(Math.pow(9,9)) == (9841.5 * 2) || (Math.sqrt(Math.pow(8,2)) == 9));
     }
 }
 
